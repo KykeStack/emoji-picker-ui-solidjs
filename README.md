@@ -1,14 +1,45 @@
-## Usage
+# SolidJS Emoji Picker App
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+A highly inspired SolidJS emoji picker app, based on [lxsmnsyc/solid-emoji-picker](https://github.com/lxsmnsyc/solid-emoji-picker). 
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+This emoji picker offers a smooth UI with features like emoji search, skin tone selection, and category filtering. 
+
+You can also easily customize its styling to fit your application's design.
+
+--------------
+
+## Installation
+
+To use this SolidJS emoji picker in your project, follow these simple steps:
+
+1. Clone this repo and Run the commands:
 
 ```bash
-$ npm install # or pnpm install or yarn install
+$ npm install # or pnpm install 
+
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+2. Import and use the EmojiPickerApp component in your SolidJS application:
+
+```javascript
+import EmojiPickerApp from 'emoji-app';
+
+export default function YourComponent(): JSX.Element {
+  return (
+    <EmojiPickerApp />
+  );
+}
+```
+
+## About
+
+The SolidJS emoji picker app provides an easy-to-use interface for selecting emojis. It comes with the following features:
+
+- Emoji Search: Quickly find the emoji you need by typing in keywords.
+- Skin Tone Selection: Easily select the desired skin tone for supported emojis.
+- Category Filtering: Organize emojis into categories for better navigation.
+- Custom Styling: Customize the emoji picker's appearance to match your application's design.
+
 
 ## Available Scripts
 
