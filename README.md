@@ -6,7 +6,8 @@ This emoji picker offers a smooth UI with features like emoji search, skin tone 
 
 You can also easily customize its styling to fit your application's design.
 
---------------
+<img src="./github/images/app.png" alt="UI Image" height="600">
+
 
 ## Installation
 
@@ -35,10 +36,22 @@ export default function YourComponent(): JSX.Element {
 
 The SolidJS emoji picker app provides an easy-to-use interface for selecting emojis. It comes with the following features:
 
+
 - Emoji Search: Quickly find the emoji you need by typing in keywords.
+
+![Local Image](./github/images/SearchBar.png)
+
 - Skin Tone Selection: Easily select the desired skin tone for supported emojis.
+
+![Local Image](./github/images/SkinTone.png)
+
 - Category Filtering: Organize emojis into categories for better navigation.
+
+![Local Image](./github/images/Categories.png)
+
 - Custom Styling: Customize the emoji picker's appearance to match your application's design.
+
+<img src="https://img-c.udemycdn.com/course/750x422/3085050_25a4_4.jpg" alt="Custom styling" height="200">
 
 
 ## Available Scripts
